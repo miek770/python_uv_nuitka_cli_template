@@ -1,6 +1,6 @@
 from click.testing import CliRunner, Result
 import pytest
-from app.hello import main
+from src.cli import main
 
 
 @pytest.fixture
